@@ -1,7 +1,7 @@
 const express= require("express")
 const cors=require("cors")
 const { connection } = require("./config/db")
-const { UserSignupRouter } = require("./routes/userSignup.route")
+const { UserSignupRouter } = require("./routes/UserSignup.route")
 const { UserSigninRouter } = require("./routes/UserSignin.route")
 
 require("dotenv").config()
